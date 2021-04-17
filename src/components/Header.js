@@ -43,7 +43,7 @@ const Header = () => {
 				</div>
 				{/* <!-- Logo Area --> */}
 				<div class="logo-area">
-					<a href="index.html">HAVI Lenses</a>
+					<Link to="/">HAVI Lenses</Link>
 				</div>
 				{/* <!-- Nav --> */}
 				<div class="sonarNav wow fadeInUp" data-wow-delay="1s">
