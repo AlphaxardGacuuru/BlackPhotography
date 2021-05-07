@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 
-const AboutMe = () => {
+const About = () => {
 	return (
 		<div>
 			{/* <!-- ***** Hero Area Start ***** --> */}
 			<div className="row">
 				<div className="col-sm-6 p-0">
-					<img src="img/bg-img/picture 11.jpg" loading="lazy" alt="creator" />
+					<img src="img/bg-img/PICT_20210502_204553.jpg" loading="lazy" alt="creator" />
 				</div>
 				<div className="col-sm-6" style={{ backgroundColor: "#232323" }}>
 					<div className="mt-5 mb-5 hidden"></div>
@@ -122,4 +122,4 @@ const AboutMe = () => {
 	)
 }
 
-export default AboutMe
+export default About

@@ -53,7 +53,7 @@ const Header = () => {
 								<Link class="nav-link" to="/" onClick={close}>Home</Link>
 							</li>
 							<li class="nav-item">
-								<Link class="nav-link" to="/about-me" onClick={close}>About Me</Link>
+								<Link class="nav-link" to="/about" onClick={close}>About Me</Link>
 							</li>
 							<li class="nav-item">
 								<Link class="nav-link" to="/services" onClick={close}>Services</Link>
@@ -91,7 +91,7 @@ const Header = () => {
 							<div class="menu-area d-flex justify-content-between">
 								{/* <!-- Logo Area  --> */}
 								<div class="logo-area">
-									<a href="index.html">HAVI Lenses</a>
+									<Link to="/">HAVI Lenses</Link>
 								</div>
 
 								<div class="menu-content-area d-flex align-items-center">

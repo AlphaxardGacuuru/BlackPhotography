@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Index from "./components/Index"
-import AboutMe from "./components/AboutMe"
+import About from "./components/About"
 import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
@@ -13,7 +13,7 @@ function App() {
 			<div className="App">
 				<Header />
 				<Route path="/" exact render={() => (<Index />)} />
-				<Route path="/about-me" exact render={() => (<AboutMe />)} />
+				<Route path="/about" exact render={() => (<About />)} />
 				<Route path="/services" exact render={() => (<Services />)} />
 				<Route path="/portfolio" exact render={() => (<Portfolio />)} />
 				<Route path="/contact" exact render={() => (<Contact />)} />
