@@ -1,51 +1,50 @@
 import { Link } from "react-router-dom"
+import Carousel from 'react-bootstrap/Carousel';
 
 const Index = () => {
 	return (
 		<div>
 			{/* <!-- ***** Hero Area Start ***** --> */}
-			<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="5000"
-				data-pause="false">
-				<ol className="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div className="carousel-inner">
-					<div className="carousel-item active">
-						<img className="d-block w-100" src="img/bg-img/IMG_20210410_053027_589.jpg" loading="lazy"
-							alt="First slide"></img>
-						<div className="carousel-caption d-none d-md-block">
-							<h1 style={{ color: "white" }}>Gachie</h1>
-							<h3 style={{ color: "white" }}>Nairobi</h3>
-						</div>
-					</div>
-					<div className="carousel-item">
-						<img className="d-block w-100" src="img/bg-img/IMG_20210218_143829_548.jpg" loading="lazy"
-							alt="Second slide"></img>
-						<div className="carousel-caption d-none d-md-block">
-							<h1 style={{ color: "white" }}>Aboretum</h1>
-							<h3 style={{ color: "white" }}>Nairobi</h3>
-						</div>
-					</div>
-					<div className="carousel-item">
-						<img className="d-block w-100" src="img/bg-img/IMG_20210403_150159_526.jpg" loading="lazy"
-							alt="Fourth slide"></img>
-						<div className="carousel-caption d-none d-md-block">
-							<h1 style={{ color: "white" }}>Kasarani</h1>
-							<h3 style={{ color: "white" }}>Nairobi</h3>
-						</div>
-					</div>
-				</div>
-				<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span className="sr-only">Previous</span>
-				</a>
-				<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span className="carousel-control-next-icon" aria-hidden="true"></span>
-					<span className="sr-only">Next</span>
-				</a>
-			</div>
+			<Carousel>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src="img/bg-img/IMG_20210410_053027_589.jpg"
+						alt="First slide"
+						loading="lazy"
+					/>
+					<Carousel.Caption>
+						<h1 style={{ color: "white" }}>Gachie</h1>
+						<h3 style={{ color: "white" }}>Nairobi</h3>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src="img/bg-img/IMG_20210218_143829_548.jpg"
+						alt="Second slide"
+						loading="lazy"
+					/>
+
+					<Carousel.Caption>
+						<h1 style={{ color: "white" }}>Aboretum</h1>
+						<h3 style={{ color: "white" }}>Nairobi</h3>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src="img/bg-img/IMG_20210403_150159_526.jpg"
+						alt="Third slide"
+						loading="lazy"
+					/>
+
+					<Carousel.Caption>
+						<h1 style={{ color: "white" }}>Kasarani</h1>
+						<h3 style={{ color: "white" }}>Nairobi</h3>
+					</Carousel.Caption>
+				</Carousel.Item>
+			</Carousel>
 			{/* <!-- ***** Hero Area End ***** --> */}
 
 			<br />
