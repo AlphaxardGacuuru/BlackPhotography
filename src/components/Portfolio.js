@@ -52,7 +52,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig"
 							data-wow-delay="500ms">
-							<a className="gallery-img" href="img/portfolio-img/2.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210407_211730_563.jpg">
 								<img src="img/portfolio-img/IMG_20210407_211730_563.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -65,7 +65,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig"
 							data-wow-delay="300ms">
-							<a className="gallery-img" href="img/portfolio-img/1.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210218_143829_548.jpg">
 								<img src="img/portfolio-img/IMG_20210218_143829_548.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -78,7 +78,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item product wow fadeInUpBig"
 							data-wow-delay="500ms">
-							<a className="gallery-img" href="img/portfolio-img/2.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210403_150159_526.jpg">
 								<img src="img/portfolio-img/IMG_20210403_150159_526.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -91,7 +91,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig"
 							data-wow-delay="700ms">
-							<a className="gallery-img" href="img/portfolio-img/3.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210406_214053_685.jpg">
 								<img src="img/portfolio-img/IMG_20210406_214053_685.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -104,7 +104,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes product wow fadeInUpBig"
 							data-wow-delay="300ms">
-							<a className="gallery-img" href="img/portfolio-img/5.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210329_214826_974.jpg">
 								<img src="img/portfolio-img/IMG_20210329_214826_974.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -117,7 +117,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig"
 							data-wow-delay="500ms">
-							<a className="gallery-img" href="img/portfolio-img/6.jpg"><img
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210327_142635_314.jpg"><img
 								src="img/portfolio-img/IMG_20210327_142635_314.jpg" loading="lazy" alt="" /></a>
 							{/* <!-- Gallery Content --> */}
 							<div className="gallery-content">
@@ -129,7 +129,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes product wow fadeInUpBig"
 							data-wow-delay="700ms">
-							<a className="gallery-img" href="img/portfolio-img/7.jpg"><img
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210330_165116_110.jpg"><img
 								src="img/portfolio-img/IMG_20210330_165116_110.jpg" loading="lazy" alt="" /></a>
 							{/* <!-- Gallery Content --> */}
 							<div className="gallery-content">
@@ -141,7 +141,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item portraits studio wow fadeInUpBig"
 							data-wow-delay="900ms">
-							<a className="gallery-img" href="img/portfolio-img/8.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210330_204636_605.jpg">
 								<img src="img/portfolio-img/IMG_20210330_204636_605.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -154,7 +154,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes studio wow fadeInUpBig"
 							data-wow-delay="300ms">
-							<a className="gallery-img" href="img/portfolio-img/9.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210329_143557_416.jpg">
 								<img src="img/portfolio-img/IMG_20210329_143557_416.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -167,7 +167,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item portraits wow fadeInUpBig"
 							data-wow-delay="500ms">
-							<a className="gallery-img" href="img/portfolio-img/10.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210328_220224_702.jpg">
 								<img src="img/portfolio-img/IMG_20210328_220224_702.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -180,7 +180,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item landscapes wow fadeInUpBig"
 							data-wow-delay="700ms">
-							<a className="gallery-img" href="img/portfolio-img/11.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210329_162511_163.jpg">
 								<img src="img/portfolio-img/IMG_20210329_162511_163.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
@@ -193,7 +193,7 @@ const Portfolio = () => {
 						{/* <!-- Single gallery Item --> */}
 						<div className="col-12 col-sm-6 col-lg-3 single_gallery_item product wow fadeInUpBig"
 							data-wow-delay="900ms">
-							<a className="gallery-img" href="img/portfolio-img/12.jpg">
+							<a className="gallery-img" href="img/portfolio-img/IMG_20210330_122032_932.jpg">
 								<img src="img/portfolio-img/IMG_20210330_122032_932.jpg" loading="lazy" alt="" />
 							</a>
 							{/* <!-- Gallery Content --> */}
