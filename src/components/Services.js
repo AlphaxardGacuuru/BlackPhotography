@@ -81,8 +81,8 @@ const Services = () => {
 									</svg>
 								</span>
 								<h4 style={{ color: "#1188bf" }}>Wedding photography <br />Standard</h4>
-								<b>1 Photographer</b><br />
-								<b>2 Cinematographers</b><br />
+								<b>2 Photographers</b><br />
+								<b>1 Cinematographer</b><br />
 								<b>1 A3 Mount</b><br />
 								<b>Photos</b><br />
 								<b>Video</b><br />
@@ -135,14 +135,11 @@ const Services = () => {
 								</span>
 								<h4>Engagement shoot</h4>
 								<b>1 A3 Mount</b><br />
-								<b>Photos</b><br />
+								<b>30 Edited, Retouched (with skin smoothening) Photos</b>
+								<br />
 								<br />
 								<h5>Ksh 10,000</h5>
 								<br />
-								<p>
-									“If your pictures are not good enough you are not close enough.”
-									― Robert Capa
-								</p>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
@@ -157,14 +154,11 @@ const Services = () => {
 								</span>
 								<h4>Family</h4>
 								<b>1 A3 Mount</b><br />
-								<b>Photos</b><br />
+								<b>30 Edited, Retouched (with skin smoothening) Photos</b>
+								<br />
 								<br />
 								<h5>Ksh 10,000</h5>
 								<br />
-								<p>
-									“What i like about photographs is that they capture a moment
-									that’s gone forever, impossible to reproduce.” ― Karl Lagerfeld.
-								</p>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
@@ -179,14 +173,10 @@ const Services = () => {
 								</span>
 								<h4>Baby bump</h4>
 								<b>1 A3 Mount</b><br />
-								<b>Photos</b><br />
+								<b>30 Edited Photos</b><br />
 								<br />
 								<h5>Ksh 10,000</h5>
 								<br />
-								<p>
-									“What i like about photographs is that they capture a moment
-									that’s gone forever, impossible to reproduce.” ― Karl Lagerfeld.
-								</p>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
@@ -204,10 +194,6 @@ const Services = () => {
 								<b>A2 Mount - Ksh 4500</b><br />
 								<b>Photo Magazine - Ksh 12,000</b><br />
 								<br />
-								<p>
-									“What i like about photographs is that they capture a moment
-									that’s gone forever, impossible to reproduce.” ― Karl Lagerfeld.
-								</p>
 							</div>
 						</div>
 					</div>
