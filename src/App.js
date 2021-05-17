@@ -5,7 +5,7 @@ import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-import { HashRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 function App() {
 	return (
