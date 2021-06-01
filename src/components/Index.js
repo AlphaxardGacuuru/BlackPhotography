@@ -5,17 +5,15 @@ const Index = () => {
 	return (
 		<div>
 			{/* <!-- ***** Hero Area Start ***** --> */}
-			<Carousel>
+			<Carousel controls={false}>
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
 						src="img/bg-img/IMG_20210410_053027_589.jpg"
 						alt="First slide"
-						loading="lazy"
-					/>
+						loading="lazy" />
 					<Carousel.Caption>
-						<h1 style={{ color: "white" }}>Gachie</h1>
-						<h3 style={{ color: "white" }}>Nairobi</h3>
+						<h3 style={{ color: "white" }}>Gachie</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -23,12 +21,10 @@ const Index = () => {
 						className="d-block w-100"
 						src="img/bg-img/IMG_20210218_143829_548.jpg"
 						alt="Second slide"
-						loading="lazy"
-					/>
+						loading="lazy" />
 
 					<Carousel.Caption>
-						<h1 style={{ color: "white" }}>Aboretum</h1>
-						<h3 style={{ color: "white" }}>Nairobi</h3>
+						<h3 style={{ color: "white" }}>Aboretum</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -36,12 +32,10 @@ const Index = () => {
 						className="d-block w-100"
 						src="img/bg-img/IMG_20210403_150159_526.jpg"
 						alt="Third slide"
-						loading="lazy"
-					/>
+						loading="lazy" />
 
 					<Carousel.Caption>
-						<h1 style={{ color: "white" }}>Kasarani</h1>
-						<h3 style={{ color: "white" }}>Nairobi</h3>
+						<h3 style={{ color: "white" }}>Kasarani</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>

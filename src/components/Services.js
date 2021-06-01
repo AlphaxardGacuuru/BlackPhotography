@@ -42,158 +42,201 @@ const Services = () => {
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp" data-wow-delay="300ms">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-camera-reels" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M0 8a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8zm11.5 5.175l3.5 1.556V7.269l-3.5 1.556v4.35zM2 7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2z" />
-										<path fill-rule="evenodd"
-											d="M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-										<path fill-rule="evenodd"
-											d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-									</svg>
-								</span>
-								<h4 style={{ color: "purple" }}>Wedding photography <br />Plus</h4>
-								<b>2 Photographers</b><br />
-								<b>2 Cinematographers</b><br />
-								<b>3 A3 Mounts</b><br />
-								<b>1 Photo Magazine</b><br />
-								<b>Photos</b><br />
-								<b>Video</b><br />
-								<b>Free Engagement Shoot</b><br />
-								<br />
-								<h5>Ksh 50,000</h5>
-								<br />
-								<p>
-									“What i like about photographs is that they capture a moment
-									that’s gone forever, impossible to reproduce.” ― Karl Lagerfeld.
-						</p>
+								<center>
+									<span style={{ color: "purple" }}>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-camera-reels" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 8a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8zm11.5 5.175l3.5 1.556V7.269l-3.5 1.556v4.35zM2 7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2z" />
+											<path fill-rule="evenodd"
+												d="M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+											<path fill-rule="evenodd"
+												d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+										</svg>
+									</span>
+									<h4 style={{ color: "purple" }}>Wedding photography <br />Plus</h4>
+									<b>2 Photographers</b><br />
+									<b>2 Cinematographers</b><br />
+									<b>3 A3 Mounts</b><br />
+									<b>1 Photo Magazine</b><br />
+									<b>Photos</b><br />
+									<b>Video (1.5 - 3hrs)</b><br />
+									<b>Trailer (6 - 12mns)</b><br />
+									<b>Free Engagement Shoot</b><br />
+									<br />
+									<h5>Ksh 50,000</h5>
+									<br />
+									<p>
+										“What i like about photographs is that they capture a moment
+										that’s gone forever, impossible to reproduce.” ― Karl Lagerfeld.
+									</p>
+								</center>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-camera-video" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
-									</svg>
-								</span>
-								<h4 style={{ color: "#1188bf" }}>Wedding photography <br />Standard</h4>
-								<b>2 Photographers</b><br />
-								<b>1 Cinematographer</b><br />
-								<b>1 A3 Mount</b><br />
-								<b>Photos</b><br />
-								<b>Video</b><br />
-								<b>Free Engagement Shoot</b><br />
-								<br />
-								<h5>Ksh 30,000</h5>
-								<br />
-								<p>
-									“If your pictures are not good enough you are not close enough.”
-									― Robert Capa
-						</p>
+								<center>
+									<span style={{ color: "#1188bf" }}>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-camera-video" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
+										</svg>
+									</span>
+									<h4 style={{ color: "#1188bf" }}>Wedding photography <br />Standard</h4>
+									<b>2 Photographers</b><br />
+									<b>1 Cinematographer</b><br />
+									<b>1 A3 Mount</b><br />
+									<b>Photos</b><br />
+									<b>Video (1.5 - 3hrs)</b><br />
+									<b>Trailer (6 - 12mns)</b><br />
+									<b>Free Engagement Shoot</b><br />
+									<br />
+									<h5>Ksh 30,000</h5>
+									<br />
+									<p>
+										“If your pictures are not good enough you are not close enough.”
+										― Robert Capa
+									</p>
+								</center>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp" data-wow-delay="300ms">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-camera" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
-										<path fill-rule="evenodd"
-											d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
-										<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
-									</svg>
-								</span>
-								<h4>Wedding photography <br />Budget</h4>
-								<b>1 Photographer</b><br />
-								<b>1 Cinematographer</b><br />
-								<b>Photos</b><br />
-								<b>Video</b><br />
-								<br />
-								<h5>Ksh 20,000</h5>
-								<br />
-								<p>
-									A story should have a beginning, a middle and an end… but not
-									necessarily in that order. – Jean-Luc Godard.
-								</p>
+								<center>
+									<span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-camera" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+											<path fill-rule="evenodd"
+												d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+										</svg>
+									</span>
+									<h4>Wedding photography <br />Budget</h4>
+									<b>1 Photographer</b><br />
+									<b>1 Cinematographer</b><br />
+									<b>Photos</b><br />
+									<b>Video (1.5 - 3hrs)</b><br />
+									<b>Trailer (6 - 12mns)</b><br />
+									<br />
+									<h5>Ksh 20,000</h5>
+									<br />
+									<p>
+										A story should have a beginning, a middle and an end… but not
+										necessarily in that order. – Jean-Luc Godard.
+									</p>
+								</center>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp" data-wow-delay="900ms">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-gem" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785l-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004l.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495l5.062-.005L8 13.366 5.47 5.495zm-1.371-.999l-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l2.92-.003 2.193 6.82L1.5 5.5zm7.889 6.817l2.194-6.828 2.929-.003-5.123 6.831z" />
-									</svg>
-								</span>
-								<h4>Engagement shoot</h4>
-								<b>1 A3 Mount</b><br />
-								<b>30 Edited, Retouched (with skin smoothening) Photos</b>
-								<br />
-								<br />
-								<h5>Ksh 10,000</h5>
-								<br />
+								<center>
+									<span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-gem" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785l-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004l.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495l5.062-.005L8 13.366 5.47 5.495zm-1.371-.999l-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l2.92-.003 2.193 6.82L1.5 5.5zm7.889 6.817l2.194-6.828 2.929-.003-5.123 6.831z" />
+										</svg>
+									</span>
+									<h4>Engagement shoot</h4>
+									<b>1 A3 Mount</b><br />
+									<b>30 Edited, Retouched (with skin smoothening) Photos</b>
+									<br />
+									<br />
+									<h5>Ksh 10,000</h5>
+									<br />
+								</center>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp" data-wow-delay="300ms">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-people" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
-									</svg>
-								</span>
-								<h4>Family</h4>
-								<b>1 A3 Mount</b><br />
-								<b>30 Edited, Retouched (with skin smoothening) Photos</b>
-								<br />
-								<br />
-								<h5>Ksh 10,000</h5>
-								<br />
+								<center>
+									<span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-people" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+										</svg>
+									</span>
+									<h4>Family</h4>
+									<b>1 A3 Mount</b><br />
+									<b>30 Edited, Retouched (with skin smoothening) Photos</b>
+									<br />
+									<br />
+									<h5>Ksh 10,000</h5>
+									<br />
+								</center>
+							</div>
+						</div>
+						{/* <!-- Single Services Area --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+								<center>
+									<span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-person" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+										</svg>
+									</span>
+									<h4>Baby bump</h4>
+									<b>1 A3 Mount</b><br />
+									<b>30 Edited Photos</b><br />
+									<br />
+									<h5>Ksh 10,000</h5>
+									<br />
+								</center>
+							</div>
+						</div>
+						{/* <!-- Single Services Area --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+								<center>
+									<span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-bag" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+										</svg>
+									</span>
+									<h4>Products</h4>
+									<b>A3 Mount - Ksh 2500</b><br />
+									<b>A2 Mount - Ksh 4500</b><br />
+									<b>Photo Magazine - Ksh 12,000</b><br />
+									<br />
+								</center>
+							</div>
+						</div>
+						{/* <!-- Single Services Area --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+								<center>
+									<span>
+
+									</span>
+									<h4>Add-ons</h4>
+									<h5>Drone - Ksh 25,000</h5>
+									<h5>Live coverage - Ksh 15,000</h5>
+									<br />
+								</center>
 							</div>
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
 								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-person" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-									</svg>
+
 								</span>
-								<h4>Baby bump</h4>
-								<b>1 A3 Mount</b><br />
-								<b>30 Edited Photos</b><br />
-								<br />
-								<h5>Ksh 10,000</h5>
-								<br />
-							</div>
-						</div>
-						{/* <!-- Single Services Area --> */}
-						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-										className="bi bi-bag" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
-									</svg>
-								</span>
-								<h4>Products</h4>
-								<b>A3 Mount - Ksh 2500</b><br />
-								<b>A2 Mount - Ksh 4500</b><br />
-								<b>Photo Magazine - Ksh 12,000</b><br />
-								<br />
+								<h4>Terms and Details</h4>
+								<h6>Early booking is recommended to secure the day.</h6>
+								<h6>Content will be delivered via a Flash Disk provided by me.</h6>
+								<h6>Delivery 2-4 weeks.</h6>
 							</div>
 						</div>
 					</div>
