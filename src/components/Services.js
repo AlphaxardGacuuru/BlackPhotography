@@ -220,7 +220,7 @@ const Services = () => {
 									<span>
 
 									</span>
-									<h4>Add-ons</h4>
+									<h4>Wedding Package Add-ons</h4>
 									<h5>Drone - Ksh 25,000</h5>
 									<h5>Live coverage - Ksh 15,000</h5>
 									<br />
@@ -236,6 +236,7 @@ const Services = () => {
 								<h4>Terms and Details</h4>
 								<h6>Early booking is recommended to secure the day.</h6>
 								<h6>Content will be delivered via a Flash Disk provided by me.</h6>
+								<h6>Wedding package add-ons are an extra cost.</h6>
 								<h6>Delivery 2-4 weeks.</h6>
 							</div>
 						</div>
