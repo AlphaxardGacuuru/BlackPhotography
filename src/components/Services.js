@@ -55,14 +55,14 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4 style={{ color: "purple" }}>Wedding photography <br />Plus</h4>
-									<b>2 Photographers</b><br />
-									<b>2 Cinematographers</b><br />
-									<b>3 A3 Mounts</b><br />
-									<b>1 Photo Magazine</b><br />
-									<b>Photos</b><br />
-									<b>Video (1.5 - 3hrs)</b><br />
-									<b>Trailer (6 - 12mns)</b><br />
-									<b>Free Engagement Shoot</b><br />
+									<span>2 Photographers</span><br />
+									<span>2 Cinematographers</span><br />
+									<span>3 A3 Mounts</span><br />
+									<span>1 Photo Magazine</span><br />
+									<span>Photos</span><br />
+									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Trailer (6 - 12mns)</span><br />
+									<span>Free Engagement Shoot</span><br />
 									<br />
 									<h5>Ksh 50,000</h5>
 									<br />
@@ -84,14 +84,14 @@ const Services = () => {
 												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
 										</svg>
 									</span>
-									<h4 style={{ color: "#1188bf" }}>Wedding photography <br />Standard</h4>
-									<b>2 Photographers</b><br />
-									<b>1 Cinematographer</b><br />
-									<b>1 A3 Mount</b><br />
-									<b>Photos</b><br />
-									<b>Video (1.5 - 3hrs)</b><br />
-									<b>Trailer (6 - 12mns)</b><br />
-									<b>Free Engagement Shoot</b><br />
+									<h4 style={{ color: "#25AAE1" }}>Wedding photography <br />Standard</h4>
+									<span>2 Photographers</span><br />
+									<span>1 Cinematographer</span><br />
+									<span>1 A3 Mount</span><br />
+									<span>Photos</span><br />
+									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Trailer (6 - 12mns)</span><br />
+									<span>Free Engagement Shoot</span><br />
 									<br />
 									<h5>Ksh 30,000</h5>
 									<br />
@@ -117,11 +117,11 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4>Wedding photography <br />Budget</h4>
-									<b>1 Photographer</b><br />
-									<b>1 Cinematographer</b><br />
-									<b>Photos</b><br />
-									<b>Video (1.5 - 3hrs)</b><br />
-									<b>Trailer (6 - 12mns)</b><br />
+									<span>1 Photographer</span><br />
+									<span>1 Cinematographer</span><br />
+									<span>Photos</span><br />
+									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Trailer (6 - 12mns)</span><br />
 									<br />
 									<h5>Ksh 20,000</h5>
 									<br />
@@ -144,8 +144,8 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4>Engagement shoot</h4>
-									<b>1 A3 Mount</b><br />
-									<b>30 Edited, Retouched (with skin smoothening) Photos</b>
+									<span>1 A3 Mount</span><br />
+									<span>30 Edited, Retouched (with skin smoothening) Photos</span>
 									<br />
 									<br />
 									<h5>Ksh 10,000</h5>
@@ -165,11 +165,11 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4>Family</h4>
-									<b>1 A3 Mount</b><br />
-									<b>30 Edited, Retouched (with skin smoothening) Photos</b>
+									<span>1 A3 Mount</span><br />
+									<span>30 Edited, Retouched (with skin smoothening) Photos</span>
 									<br />
 									<br />
-									<h5>Ksh 10,000</h5>
+									<h5>Ksh 5,000</h5>
 									<br />
 								</center>
 							</div>
@@ -186,10 +186,10 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4>Baby bump</h4>
-									<b>1 A3 Mount</b><br />
-									<b>30 Edited Photos</b><br />
+									<span>1 A3 Mount</span><br />
+									<span>30 Edited Photos</span><br />
 									<br />
-									<h5>Ksh 10,000</h5>
+									<h5>Ksh 5,000</h5>
 									<br />
 								</center>
 							</div>
@@ -206,9 +206,9 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4>Products</h4>
-									<b>A3 Mount - Ksh 2500</b><br />
-									<b>A2 Mount - Ksh 4500</b><br />
-									<b>Photo Magazine - Ksh 12,000</b><br />
+									<span>A3 Mount - Ksh 2500</span><br />
+									<span>A2 Mount - Ksh 4500</span><br />
+									<span>Photo Magazine - Ksh 12,000</span><br />
 									<br />
 								</center>
 							</div>
