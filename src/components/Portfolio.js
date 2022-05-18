@@ -55,9 +55,9 @@ const Portfolio = () => {
 						<br />
 						<br />
 						<br />
-						<div className="d-flex">
-							<div className="p-2"><h6 className="text-light active">Pictures</h6></div>
-							<div className="p-2"><h6 className="text-light">Videos</h6></div>
+						<div className="d-flex justify-content-center">
+							<div className="p-2"><h5 className="text-light active">Pictures</h5></div>
+							<div className="p-2"><h5 className="text-light">Videos</h5></div>
 						</div>
 					</center>
 				</div>
@@ -74,12 +74,13 @@ const Portfolio = () => {
 					.map((image, key) => (
 						<span
 							key={key}
-							className="p-1 pb-2 w-50"
+							className="w-50 wow fadeInUpBig"
 							style={{
 								borderRadius: "0px",
 								display: "inline-block",
 								textAlign: "center",
-								verticalAlign: "top"
+								verticalAlign: "top",
+								padding: "2px"
 							}}>
 							<a href={image}>
 								<img src={image}
