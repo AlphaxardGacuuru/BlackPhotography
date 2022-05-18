@@ -1524,6 +1524,19 @@ img {
   .single-pie-bar {
     margin-bottom: 30px; } }
 
+	/* card */
+	.card {
+		/* Add shadows to create the "card" effect */
+		box-shadow: 0 4px 8px 0 rgba(35, 35, 35, 0.5);
+		transition: 0.3s;
+		margin: 3%;
+	}
+	
+	/* On mouse-over, add a deeper shadow */
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(35, 35, 35, 0.5);
+	}
+
 /* The end */
 
 /*# sourceMappingURL=style.css.map */

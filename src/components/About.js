@@ -17,7 +17,7 @@ const About = () => {
 							<div className="p-2 ml-5 mr-5 hidden">Flex item 1</div>
 							<div className="p-5">
 								<div className="m-3" style={{ backgroundColor: "white", height: "1px" }}></div>
-								<h2 style={{ color: "white" }}>Hi, I'm Al a Highly Active Virtual Individual</h2>
+								<h2 style={{ color: "white" }}>Hi, I'm Al</h2>
 								<p style={{ color: "white" }}>
 									I'm an experienced photographer and videographer and I know that
 									wedding ceremonies ought to be memorable, thus HAVI Lenses offers

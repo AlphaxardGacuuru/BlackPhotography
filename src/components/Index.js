@@ -45,14 +45,14 @@ const Index = () => {
 			<br />
 
 			{/* <!-- ***** Call to Action Area Start ***** --> */}
-			<div class="sonar-call-to-action-area section-padding-0-100">
-				<div class="backEnd-content">
+			<div className="sonar-call-to-action-area section-padding-0-100">
+				<div className="backEnd-content">
 					<h2>Real</h2>
 				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
+				<div className="container">
+					<div className="row">
+						<div className="col-12">
+							<div className="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
 								<h2>"In photography there is a reality so subtle that it becomes more <b>real</b> than reality."
 						</h2>
 							</div>
@@ -62,17 +62,17 @@ const Index = () => {
 			</div>
 			{/* <!-- ***** Call to Action Area End ***** --> */}
 
-			<div class="sonar-testimonials-area bg-img" style={{ backgroundImage: "url(img/bg-img/tes.jpg)" }}>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12 col-md-10 col-lg-7">
-							<div class="testimonial-content bg-white">
-								<div class="section-heading text-left">
-									<div class="line"></div>
+			<div className="sonar-testimonials-area bg-img" style={{ backgroundImage: "url(img/bg-img/tes.jpg)" }}>
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-12 col-md-10 col-lg-7">
+							<div className="testimonial-content bg-white">
+								<div className="section-heading text-left">
+									<div className="line"></div>
 									<h2>What I do</h2>
 								</div>
 
-								<div class="single-tes-slide">
+								<div className="single-tes-slide">
 									<h5>Wedding Photography</h5>
 									<h6>I take your day and immortalize it in breath taking photography so you can remember it
 								for all time, share it with your friends, family, children and generations to come.</h6>
@@ -80,7 +80,7 @@ const Index = () => {
 								<br />
 								<br />
 
-								<div class="single-tes-slide">
+								<div className="single-tes-slide">
 									<h5>Wedding Videography</h5>
 									<h6>I take your eventful day and turn it into a movie. With my skilled team of experienced
 								videographers, we capture every emotion of the day frame by frame.</h6>
@@ -95,17 +95,17 @@ const Index = () => {
 			<br />
 			<br />
 			{/* <!-- ***** Call to Action Area Start ***** --> */}
-			<div class="sonar-call-to-action-area section-padding-0-100">
-				<div class="backEnd-content">
+			<div className="sonar-call-to-action-area section-padding-0-100">
+				<div className="backEnd-content">
 					<h2>Dream</h2>
 				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
+				<div className="container">
+					<div className="row">
+						<div className="col-12">
+							<div className="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
 								<h2>I'm an experienced photographer and videographer</h2>
 								<h5>Let’s talk</h5>
-								<Link to="/contact" class="btn sonar-btn mt-100">contact me</Link>
+								<Link to="/contact" className="btn sonar-btn mt-100">contact me</Link>
 							</div>
 						</div>
 					</div>
