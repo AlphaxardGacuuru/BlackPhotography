@@ -7,6 +7,21 @@ const showPortfolio = () => {
 	}, 1000)
 }
 
+// Images array
+const images = [
+	"img/portfolio-img/IMG_20210407_211730_563.jpg",
+	"img/portfolio-img/IMG_20210218_143829_548.jpg",
+	"img/portfolio-img/IMG_20210403_150159_526.jpg",
+	"img/portfolio-img/IMG_20210406_214053_685.jpg",
+	"img/portfolio-img/IMG_20210329_214826_974.jpg",
+	"img/portfolio-img/IMG_20210327_142635_314.jpg",
+	"img/portfolio-img/IMG_20210330_165116_110.jpg",
+	"img/portfolio-img/IMG_20210329_143557_416.jpg",
+	"img/portfolio-img/IMG_20210328_220224_702.jpg",
+	"img/portfolio-img/IMG_20210330_122032_932.jpg",
+	"img/portfolio-img/IMG_20210329_162511_163.jpg",
+]
+
 const Portfolio = () => {
 	return (
 		<div>
@@ -28,7 +43,7 @@ const Portfolio = () => {
 								<p style={{ color: "white" }}>
 									We strive to give you the best products to make your day
 									memorable.
-						</p>
+								</p>
 							</div>
 							<div className="p-2 ml-5 mr-5 hidden">Flex item 3</div>
 						</div>
@@ -36,14 +51,46 @@ const Portfolio = () => {
 						<br />
 						<br />
 						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<div className="d-flex">
+							<div className="p-2"><h6 className="text-light active">Pictures</h6></div>
+							<div className="p-2"><h6 className="text-light">Videos</h6></div>
+						</div>
 					</center>
 				</div>
 			</div>
 			{/* <!-- ***** Hero Area End ***** --> */}
 
-			<center>
+			{/* <center>
 				<button id="show-button" className="sonar-btn m-5" onClick={showPortfolio}>show portfolio</button>
-			</center>
+			</center> */}
+
+			{/* Gallery Area Start */}
+			<div>
+				{images
+					.map((image, key) => (
+						<span
+							key={key}
+							className="p-1 pb-2 w-50"
+							style={{
+								borderRadius: "0px",
+								display: "inline-block",
+								textAlign: "center",
+								verticalAlign: "top"
+							}}>
+							<a href={image}>
+								<img src={image}
+								// width="2000rem"
+								// height="200rem"
+								/>
+							</a>
+						</span>
+					))}
+			</div>
+			{/* Gallery Area End */}
 
 			{/* <!-- ****** Gallery Area Start ****** --> */}
 			<section className="sonar-projects-area" id="projects" style={{ display: "none" }}>

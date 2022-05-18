@@ -23,7 +23,7 @@ const Header = () => {
 			{/* Preloader End */}
 
 			{/* <!-- Grids --> */}
-			<div className="grids d-flex justify-content-between">
+			{/* <div className="grids d-flex justify-content-between">
 				<div className="grid1"></div>
 				<div className="grid2"></div>
 				<div className="grid3"></div>
@@ -33,7 +33,7 @@ const Header = () => {
 				<div className="grid7"></div>
 				<div className="grid8"></div>
 				<div className="grid9"></div>
-			</div>
+			</div> */}
 
 			{/* <!-- ***** Main Menu Area Start ***** --> */}
 			<div className="mainMenu d-flex align-items-center justify-content-between">

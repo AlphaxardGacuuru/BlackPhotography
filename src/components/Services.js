@@ -41,7 +41,7 @@ const Services = () => {
 					<div className="row">
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="300ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
 								<center>
 									<span style={{ color: "purple" }}>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -75,7 +75,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center>
 									<span style={{ color: "#1188bf" }}>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -104,7 +104,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="300ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -134,7 +134,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="900ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="900ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -155,7 +155,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="300ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -176,7 +176,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -196,7 +196,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -215,12 +215,12 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center>
 									<span>
 
 									</span>
-									<h4>Wedding Package Add-ons</h4>
+									<h4>Wedding Package <br />Add-ons</h4>
 									<h5>Drone - Ksh 25,000</h5>
 									<h5>Live coverage - Ksh 15,000</h5>
 									<br />
@@ -229,10 +229,7 @@ const Services = () => {
 						</div>
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp" data-wow-delay="600ms">
-								<span>
-
-								</span>
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<h4>Terms and Details</h4>
 								<h6>Early booking is recommended to secure the day.</h6>
 								<h6>Content will be delivered via a Flash Disk provided by me.</h6>
