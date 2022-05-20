@@ -1,28 +1,51 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
 
-const showPortfolio = () => {
-	document.getElementById("projects").style.display = "block"
-	setTimeout(() => {
-		window.scrollBy({ top: 200, right: 0, behavior: "smooth" })
-	}, 1000)
-}
-
-// Images array
-const images = [
-	"img/portfolio-img/IMG_20210407_211730_563.jpg",
-	"img/portfolio-img/IMG_20210218_143829_548.jpg",
-	"img/portfolio-img/IMG_20210403_150159_526.jpg",
-	"img/portfolio-img/IMG_20210406_214053_685.jpg",
-	"img/portfolio-img/IMG_20210329_214826_974.jpg",
-	"img/portfolio-img/IMG_20210327_142635_314.jpg",
-	"img/portfolio-img/IMG_20210330_165116_110.jpg",
-	"img/portfolio-img/IMG_20210329_143557_416.jpg",
-	"img/portfolio-img/IMG_20210328_220224_702.jpg",
-	"img/portfolio-img/IMG_20210330_122032_932.jpg",
-	"img/portfolio-img/IMG_20210329_162511_163.jpg",
-]
-
 const Portfolio = () => {
+
+	const [active, setActive] = useState("")
+
+	const showPortfolio = () => {
+		document.getElementById("projects").style.display = "block"
+		setTimeout(() => {
+			window.scrollBy({ top: 200, right: 0, behavior: "smooth" })
+		}, 1000)
+	}
+
+	// Images array
+	const images = [
+		"img/portfolio-img/Wedding-01.jpg",
+		"img/portfolio-img/Portrait-01.jpg",
+		"img/portfolio-img/Kid-01.jpg",
+		"img/portfolio-img/Wedding-02.jpg",
+		"img/portfolio-img/Portrait-02.jpg",
+		"img/portfolio-img/Kid-02.jpg",
+		"img/portfolio-img/Wedding-03.jpg",
+		"img/portfolio-img/Portrait-03.jpg",
+		"img/portfolio-img/Kid-03.jpg",
+		"img/portfolio-img/Wedding-04.jpg",
+		"img/portfolio-img/Portrait-04.jpg",
+		"img/portfolio-img/Kid-04.jpg",
+		"img/portfolio-img/Wedding-05.jpg",
+		"img/portfolio-img/Portrait-05.jpg",
+		"img/portfolio-img/Kid-05.jpg",
+		"img/portfolio-img/Wedding-06.jpg",
+		"img/portfolio-img/Portrait-06.jpg",
+		"img/portfolio-img/Kid-06.jpg",
+		"img/portfolio-img/Wedding-07.jpg",
+		"img/portfolio-img/Portrait-07.jpg",
+		"img/portfolio-img/Kid-07.jpg",
+		"img/portfolio-img/Wedding-08.jpg",
+		"img/portfolio-img/Portrait-08.jpg",
+		"img/portfolio-img/Kid-08.jpg",
+		"img/portfolio-img/Wedding-09.jpg",
+		"img/portfolio-img/Portrait-09.jpg",
+		"img/portfolio-img/Kid-09.jpg",
+		"img/portfolio-img/Wedding-10.jpg",
+		"img/portfolio-img/Portrait-10.jpg",
+		"img/portfolio-img/Kid-10.jpg",
+	]
+
 	return (
 		<div>
 			{/* <!-- ***** Hero Area Start ***** --> */}
@@ -53,11 +76,31 @@ const Portfolio = () => {
 						<br />
 						<br />
 						<br />
-						<br />
-						<br />
 						<div className="d-flex justify-content-center">
-							<div className="p-2"><h5 className="text-light active">Pictures</h5></div>
-							<div className="p-2"><h5 className="text-light">Videos</h5></div>
+							<div className="mx-2 px-2 p-1 border-bottom border-light"><h6 className="text-light">Pictures</h6></div>
+							<div className="mx-2 px-2 p-1"><h6 className="text-light">Videos</h6></div>
+						</div>
+						<div className="d-flex justify-content-center">
+							<div className={`m-2 px-2 p-1 ${active == `` && `border-bottom border-light`}`}
+								style={{ cursor: "pointer", transition: "border 3s ease-out" }}
+								onClick={() => setActive("")}>
+								<h6 className="text-light">All</h6>
+							</div>
+							<div className={`m-2 px-2 p-1 ${active == `Wedding` && `border-bottom border-light`}`}
+								style={{ cursor: "pointer", transition: "border 3s ease-out" }}
+								onClick={() => setActive("Wedding")}>
+								<h6 className="text-light">Weddings</h6>
+							</div>
+							<div className={`m-2 px-2 p-1 ${active == `Portrait` && `border-bottom border-light`}`}
+								style={{ cursor: "pointer", transition: "border 3s ease-out" }}
+								onClick={() => setActive("Portrait")}>
+								<h6 className="text-light">Portraits</h6>
+							</div>
+							<div className={`m-2 px-2 p-1 ${active == `Kid` && `border-bottom border-light`}`}
+								style={{ cursor: "pointer", transition: "border 3s ease-out" }}
+								onClick={() => setActive("Kid")}>
+								<h6 className="text-light">Kids</h6>
+							</div>
 						</div>
 					</center>
 				</div>
@@ -71,22 +114,22 @@ const Portfolio = () => {
 			{/* Gallery Area Start */}
 			<div>
 				{images
+					.filter((image) => image.match(active))
+					.reverse()
 					.map((image, key) => (
 						<span
 							key={key}
-							className="w-50 wow fadeInUpBig"
+							className="thumbnail w-50"
 							style={{
 								borderRadius: "0px",
 								display: "inline-block",
 								textAlign: "center",
 								verticalAlign: "top",
-								padding: "2px"
+								padding: "2px",
+								transition: "display 2s ease"
 							}}>
 							<a href={image}>
-								<img src={image}
-								// width="2000rem"
-								// height="200rem"
-								/>
+								<img src={image} />
 							</a>
 						</span>
 					))}

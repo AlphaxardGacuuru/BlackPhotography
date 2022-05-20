@@ -9,7 +9,7 @@ const Index = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="img/bg-img/IMG_20210410_053027_589.jpg"
+						src="img/portfolio-img/Wedding-05.jpg"
 						alt="First slide"
 						loading="lazy" />
 					<Carousel.Caption>
@@ -19,7 +19,7 @@ const Index = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="img/bg-img/IMG_20210218_143829_548.jpg"
+						src="img/portfolio-img/Wedding-31.jpg"
 						alt="Second slide"
 						loading="lazy" />
 
@@ -30,7 +30,7 @@ const Index = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="img/bg-img/IMG_20210403_150159_526.jpg"
+						src="img/portfolio-img/Wedding-22.jpg"
 						alt="Third slide"
 						loading="lazy" />
 
@@ -54,7 +54,7 @@ const Index = () => {
 						<div className="col-12">
 							<div className="call-to-action-content wow fadeInUp" data-wow-delay="0.5s">
 								<h2>"In photography there is a reality so subtle that it becomes more <b>real</b> than reality."
-						</h2>
+								</h2>
 							</div>
 						</div>
 					</div>
@@ -75,7 +75,7 @@ const Index = () => {
 								<div className="single-tes-slide">
 									<h5>Wedding Photography</h5>
 									<h6>I take your day and immortalize it in breath taking photography so you can remember it
-								for all time, share it with your friends, family, children and generations to come.</h6>
+										for all time, share it with your friends, family, children and generations to come.</h6>
 								</div>
 								<br />
 								<br />
@@ -83,7 +83,7 @@ const Index = () => {
 								<div className="single-tes-slide">
 									<h5>Wedding Videography</h5>
 									<h6>I take your eventful day and turn it into a movie. With my skilled team of experienced
-								videographers, we capture every emotion of the day frame by frame.</h6>
+										videographers, we capture every emotion of the day frame by frame.</h6>
 								</div>
 
 							</div>
