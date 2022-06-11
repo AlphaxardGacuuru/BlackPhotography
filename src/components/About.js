@@ -6,7 +6,7 @@ const About = () => {
 			{/* <!-- ***** Hero Area Start ***** --> */}
 			<div className="row">
 				<div className="col-sm-6 p-0">
-					<img src="img/bg-img/PICT_20210502_204553.jpg" loading="lazy" alt="creator" />
+					<img src="img/bg-img/Me-3.jpg" loading="lazy" alt="creator" />
 				</div>
 				<div className="col-sm-6" style={{ backgroundColor: "#232323" }}>
 					<div className="mt-5 mb-5 hidden"></div>
@@ -15,7 +15,7 @@ const About = () => {
 						<br />
 						<div className="d-flex justify-content-center mb-3">
 							<div className="p-2 ml-5 mr-5 hidden">Flex item 1</div>
-							<div className="p-5">
+							<div className="px-3">
 								<div className="m-3" style={{ backgroundColor: "white", height: "1px" }}></div>
 								<h2 style={{ color: "white" }}>Hi, I'm Al</h2>
 								<p style={{ color: "white" }}>

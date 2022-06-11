@@ -2,6 +2,15 @@ import { Link } from "react-router-dom"
 import Carousel from 'react-bootstrap/Carousel';
 
 const Index = () => {
+
+	// Images array
+	const images = [
+		"img/portfolio-img/Wedding-05.jpg",
+		"img/portfolio-img/Wedding-40.jpg",
+		"img/portfolio-img/Wedding-31.jpg",
+		"img/portfolio-img/Wedding-13.jpg",
+	]
+
 	return (
 		<div>
 			{/* <!-- ***** Hero Area Start ***** --> */}
@@ -91,9 +100,194 @@ const Index = () => {
 					</div>
 				</div>
 			</div>
-			<br />
-			<br />
-			<br />
+
+			{/* <!-- ***** Hero Area Start ***** --> */}
+			<div className="row mt-5">
+				<div className="col-sm-12 p-5" style={{ backgroundColor: "#000" }}>
+					<center>
+						<h1 style={{ color: "white" }}>About Me</h1>
+					</center>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-sm-6 p-0">
+					<img src="img/bg-img/Me-3.jpg" loading="lazy" alt="creator" />
+				</div>
+				<div className="col-sm-6" style={{ backgroundColor: "#232323" }}>
+					<div className="mt-5 mb-5 hidden"></div>
+					<center>
+						<br />
+						<br />
+						<div className="d-flex justify-content-center mb-3">
+							<div className="p-2 ml-5 mr-5 hidden">Flex item 1</div>
+							<div className="px-3">
+								<div className="m-3" style={{ backgroundColor: "white", height: "1px" }}></div>
+								<h2 style={{ color: "white" }}>Hi, I'm Al</h2>
+								<p style={{ color: "white" }}>
+									I'm an experienced photographer and videographer and I know that
+									wedding ceremonies ought to be memorable, thus HAVI Lenses offers
+									customized wedding coverage to immortalize your day.
+								</p>
+							</div>
+							<div className="p-2 ml-5 mr-5 hidden">Flex item 3</div>
+						</div>
+					</center>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-sm-12 p-5" style={{ backgroundColor: "#232323" }}>
+					<center>
+						<Link to="/about" className="btn sonar-btn white-btn">See More</Link>
+					</center>
+				</div>
+			</div>
+			{/* <!-- ***** Hero Area End ***** --> */}
+
+			{/* <!-- ***** Services Area Start ***** --> */}
+			<div className="sonar-services-area">
+				<div className="container">
+					<div className="row">
+						<div className="col-sm-12 mt-5 mb-3">
+							<center><h1>Services</h1></center>
+						</div>
+					</div>
+					<div className="row">
+						{/* <!-- Single Services Area --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+								<center>
+									<span style={{ color: "purple" }}>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-camera-reels" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 8a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8zm11.5 5.175l3.5 1.556V7.269l-3.5 1.556v4.35zM2 7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2z" />
+											<path fill-rule="evenodd"
+												d="M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+											<path fill-rule="evenodd"
+												d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+										</svg>
+									</span>
+									<h4 style={{ color: "purple" }}>Wedding photography <br />Plus</h4>
+									<span>2 Photographers</span><br />
+									<span>2 Cinematographers</span><br />
+									<span>3 A3 Mounts</span><br />
+									<span>1 Photo Magazine</span><br />
+									<span>Photos</span><br />
+									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Trailer (6 - 12mns)</span><br />
+									<span>Free Engagement Shoot</span><br />
+									<br />
+									<h5>Ksh 50,000</h5>
+									<br />
+									<p>
+										“What i like about photographs is that they capture a moment
+										that’s gone forever, impossible to reproduce.” ― Karl Lagerfeld.
+									</p>
+								</center>
+							</div>
+						</div>
+						{/* <!-- Single Services Area --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
+								<center>
+									<span style={{ color: "#1188bf" }}>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-camera-video" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
+										</svg>
+									</span>
+									<h4 style={{ color: "#25AAE1" }}>Wedding photography <br />Standard</h4>
+									<span>2 Photographers</span><br />
+									<span>1 Cinematographer</span><br />
+									<span>1 A3 Mount</span><br />
+									<span>Photos</span><br />
+									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Trailer (6 - 12mns)</span><br />
+									<span>Free Engagement Shoot</span><br />
+									<br />
+									<h5>Ksh 30,000</h5>
+									<br />
+									<p>
+										“If your pictures are not good enough you are not close enough.”
+										― Robert Capa
+									</p>
+								</center>
+							</div>
+						</div>
+						{/* <!-- Single Services Area --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+								<center>
+									<span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+											className="bi bi-camera" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+											<path fill-rule="evenodd"
+												d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+										</svg>
+									</span>
+									<h4>Wedding photography <br />Budget</h4>
+									<span>1 Photographer</span><br />
+									<span>1 Cinematographer</span><br />
+									<span>Photos</span><br />
+									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Trailer (6 - 12mns)</span><br />
+									<br />
+									<h5>Ksh 20,000</h5>
+									<br />
+									<p>
+										A story should have a beginning, a middle and an end… but not
+										necessarily in that order. – Jean-Luc Godard.
+									</p>
+								</center>
+							</div>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-sm-12 p-5">
+							<center><Link to="/services" className="btn sonar-btn">see more</Link></center>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* <!-- ***** Services Area End ***** --> */}
+
+			{/* Gallery Area Start */}
+			<div className="row">
+				<div className="col-sm-12 mt-5 mb-3">
+					<center><h1>Portfolio</h1></center>
+				</div>
+			</div>
+			<div>
+				{images
+					.map((image, key) => (
+						<span
+							key={key}
+							className="thumbnail w-50"
+							style={{
+								borderRadius: "0px",
+								display: "inline-block",
+								textAlign: "center",
+								verticalAlign: "top",
+								padding: "2px",
+								transition: "display 2s ease"
+							}}>
+							<a href={image}>
+								<img src={image} />
+							</a>
+						</span>
+					))}
+			</div>
+			<div className="row">
+				<div className="col-sm-12 p-5">
+					<center><Link to="/portfolio" className="btn sonar-btn">see more</Link></center>
+				</div>
+			</div>
+			{/* Gallery Area End */}
+
 			{/* <!-- ***** Call to Action Area Start ***** --> */}
 			<div className="sonar-call-to-action-area section-padding-0-100">
 				<div className="backEnd-content">

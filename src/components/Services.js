@@ -217,9 +217,6 @@ const Services = () => {
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center>
-									<span>
-
-									</span>
 									<h4>Wedding Package <br />Add-ons</h4>
 									<h5>Drone - Ksh 25,000</h5>
 									<h5>Live coverage - Ksh 15,000</h5>
@@ -230,7 +227,7 @@ const Services = () => {
 						{/* <!-- Single Services Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
-								<h4>Terms and Details</h4>
+								<center><h4>Terms and Details</h4></center>
 								<h6>Early booking is recommended to secure the day.</h6>
 								<h6>Content will be delivered via a Flash Disk provided by me.</h6>
 								<h6>Wedding package add-ons are an extra cost.</h6>
@@ -371,7 +368,7 @@ const Services = () => {
 				</div>
 			</div>
 			{/* <!-- ***** Call to Action Area End ***** --></br> */}
-		</div >
+		</div>
 	)
 }
 
