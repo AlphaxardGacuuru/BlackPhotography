@@ -1,5 +1,5 @@
 // cacheName needs to be changed after any of the assets are changed
-const cacheName = 'HAVILensesCache1';
+const cacheName = 'HAVILensesCache2';
 
 const cacheAssets = [
 	'style.css'
