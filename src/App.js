@@ -8,6 +8,8 @@ import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
+import ScrollToTop from "./components/ScrollToTop"
+
 function App() {
 
 	/*
@@ -26,6 +28,7 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
+				<ScrollToTop />
 				<Header />
 				<Route path="/" exact render={() => (<Index />)} />
 				<Route path="/about" exact render={() => (<About />)} />
