@@ -22,7 +22,7 @@ const Services = () => {
 									I use proven principles of photography and cinematography and
 									add my personal touch to give you an experience like never
 									before, using new technology to enhance your event
-						</p>
+								</p>
 							</div>
 							<div className="p-2 ml-5 mr-5 hidden">Flex item 3</div>
 						</div>
@@ -39,11 +39,14 @@ const Services = () => {
 			<div className="sonar-services-area section-padding-100-50">
 				<div className="container">
 					<div className="row">
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Wedding Photography Plus Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#FFC862" }}
+								data-wow-delay="300ms">
 								<center>
-									<span style={{ color: "purple" }}>
+									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
 											className="bi bi-camera-reels" viewBox="0 0 16 16">
 											<path fill-rule="evenodd"
@@ -54,7 +57,7 @@ const Services = () => {
 												d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
 										</svg>
 									</span>
-									<h4 style={{ color: "purple" }}>Wedding photography <br />Plus</h4>
+									<h4>Wedding Photography <br />Plus</h4>
 									<span>2 Photographers</span><br />
 									<span>2 Cinematographers</span><br />
 									<span>3 A3 Mounts</span><br />
@@ -73,18 +76,21 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Wedding Photography Standard Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#102336", color: "white" }}
+								data-wow-delay="600ms">
 								<center>
-									<span style={{ color: "#1188bf" }}>
+									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
 											className="bi bi-camera-video" viewBox="0 0 16 16">
 											<path fill-rule="evenodd"
 												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
 										</svg>
 									</span>
-									<h4 style={{ color: "#25AAE1" }}>Wedding photography <br />Standard</h4>
+									<h4 style={{ color: "white" }}>Wedding Photography <br />Standard</h4>
 									<span>2 Photographers</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>1 A3 Mount</span><br />
@@ -93,18 +99,21 @@ const Services = () => {
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
 									<br />
-									<h5>Ksh 30,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
 									<br />
-									<p>
+									<p style={{ color: "white" }}>
 										“If your pictures are not good enough you are not close enough.”
 										― Robert Capa
 									</p>
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Wedding Photography Budget Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#232323", color: "white" }}
+								data-wow-delay="300ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -116,25 +125,28 @@ const Services = () => {
 											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
 										</svg>
 									</span>
-									<h4>Wedding photography <br />Budget</h4>
+									<h4 style={{ color: "white" }}>Wedding Photography <br />Budget</h4>
 									<span>1 Photographer</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>Photos</span><br />
 									<span>Video (1.5 - 3hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<br />
-									<h5>Ksh 20,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 20,000</h5>
 									<br />
-									<p>
+									<p style={{ color: "white" }}>
 										A story should have a beginning, a middle and an end… but not
 										necessarily in that order. – Jean-Luc Godard.
 									</p>
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Engagement Shoot Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="900ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#fb3958" }}
+								data-wow-delay="900ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -143,7 +155,7 @@ const Services = () => {
 												d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785l-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004l.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495l5.062-.005L8 13.366 5.47 5.495zm-1.371-.999l-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l2.92-.003 2.193 6.82L1.5 5.5zm7.889 6.817l2.194-6.828 2.929-.003-5.123 6.831z" />
 										</svg>
 									</span>
-									<h4>Engagement shoot</h4>
+									<h4>Engagement Shoot</h4>
 									<span>1 A3 Mount</span><br />
 									<span>30 Edited, Retouched (with skin smoothening) Photos</span>
 									<br />
@@ -153,9 +165,12 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Family Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#81D9DD" }}
+								data-wow-delay="300ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -174,9 +189,12 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Baby Bump Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#FF0080" }}
+								data-wow-delay="600ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -185,7 +203,7 @@ const Services = () => {
 												d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
 										</svg>
 									</span>
-									<h4>Baby bump</h4>
+									<h4>Baby Bump</h4>
 									<span>1 A3 Mount</span><br />
 									<span>30 Edited Photos</span><br />
 									<br />
@@ -194,9 +212,12 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Products Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#914E3B" }}
+								data-wow-delay="600ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -213,9 +234,12 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Add-ons Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#CFF56A" }}
+								data-wow-delay="600ms">
 								<center>
 									<h4>Wedding Package <br />Add-ons</h4>
 									<h5>Drone - Ksh 25,000</h5>
@@ -224,7 +248,7 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Terms and Details Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center><h4>Terms and Details</h4></center>

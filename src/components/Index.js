@@ -152,11 +152,14 @@ const Index = () => {
 						</div>
 					</div>
 					<div className="row">
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Wedding Photography Plus Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#FFC862" }}
+								data-wow-delay="300ms">
 								<center>
-									<span style={{ color: "purple" }}>
+									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
 											className="bi bi-camera-reels" viewBox="0 0 16 16">
 											<path fill-rule="evenodd"
@@ -167,7 +170,7 @@ const Index = () => {
 												d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
 										</svg>
 									</span>
-									<h4 style={{ color: "purple" }}>Wedding photography <br />Plus</h4>
+									<h4>Wedding Photography <br />Plus</h4>
 									<span>2 Photographers</span><br />
 									<span>2 Cinematographers</span><br />
 									<span>3 A3 Mounts</span><br />
@@ -186,18 +189,21 @@ const Index = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Wedding Photography Standard Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#102336", color: "white" }}
+								data-wow-delay="600ms">
 								<center>
-									<span style={{ color: "#1188bf" }}>
+									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
 											className="bi bi-camera-video" viewBox="0 0 16 16">
 											<path fill-rule="evenodd"
 												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
 										</svg>
 									</span>
-									<h4 style={{ color: "#25AAE1" }}>Wedding photography <br />Standard</h4>
+									<h4 style={{ color: "white" }}>Wedding Photography <br />Standard</h4>
 									<span>2 Photographers</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>1 A3 Mount</span><br />
@@ -206,18 +212,21 @@ const Index = () => {
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
 									<br />
-									<h5>Ksh 30,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
 									<br />
-									<p>
+									<p style={{ color: "white" }}>
 										“If your pictures are not good enough you are not close enough.”
 										― Robert Capa
 									</p>
 								</center>
 							</div>
 						</div>
-						{/* <!-- Single Services Area --> */}
+						{/* <!-- Wedding Photography Budget Area --> */}
 						<div className="col-12 col-md-6 col-lg-4">
-							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="300ms">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#232323", color: "white" }}
+								data-wow-delay="300ms">
 								<center>
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -229,16 +238,16 @@ const Index = () => {
 											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
 										</svg>
 									</span>
-									<h4>Wedding photography <br />Budget</h4>
+									<h4 style={{ color: "white" }}>Wedding Photography <br />Budget</h4>
 									<span>1 Photographer</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>Photos</span><br />
 									<span>Video (1.5 - 3hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<br />
-									<h5>Ksh 20,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 20,000</h5>
 									<br />
-									<p>
+									<p style={{ color: "white" }}>
 										A story should have a beginning, a middle and an end… but not
 										necessarily in that order. – Jean-Luc Godard.
 									</p>
