@@ -180,6 +180,10 @@ const Contact = () => {
 					</div>
 				</div>
 			</section>
+			<edit-photo style={{ width: "640px", height: "480px" }}>
+				<a href="https://edit.photo/template/eyJsYWJlbCI6IkhBVkkgTGVuc2VzIFBob3RvIEVkaXRvciJ9/">Edit Photo</a>
+			</edit-photo>
+			<script src="https://edit.photo/widget.js" async></script>
 		</div>
 	)
 }
