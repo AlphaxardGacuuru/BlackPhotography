@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 const open = () => document.getElementById("MyElement").className = "menu-open"
 const close = () => document.getElementById("MyElement").classList.remove("menu-open")
@@ -12,6 +12,9 @@ window.onscroll = () => {
 }
 
 const Header = () => {
+
+	const location = useLocation()
+
 	return (
 		<div id="MyElement">
 			{/* Preloader Start */}
@@ -50,19 +53,39 @@ const Header = () => {
 					<nav>
 						<ul>
 							<li className="nav-item active">
-								<Link className="nav-link" to="/" onClick={close}>Home</Link>
+								<Link
+									className="nav-link"
+									to="/"
+									style={{ opacity: location.pathname == "/" ? 1 : 0.2 }}
+									onClick={close}>Home</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/about" onClick={close}>About Me</Link>
+								<Link
+									className="nav-link"
+									to="/about"
+									style={{ opacity: location.pathname == "/about" ? 1 : 0.2 }}
+									onClick={close}>About Me</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/services" onClick={close}>Services</Link>
+								<Link
+									className="nav-link"
+									to="/services"
+									style={{ opacity: location.pathname == "/services" ? 1 : 0.2 }}
+									onClick={close}>Services</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/portfolio" onClick={close}>Portfolio</Link>
+								<Link
+									className="nav-link"
+									to="/portfolio"
+									style={{ opacity: location.pathname == "/portfolio" ? 1 : 0.2 }}
+									onClick={close}>Portfolio</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/contact" onClick={close}>Contact</Link>
+								<Link
+									className="nav-link"
+									to="/contact"
+									style={{ opacity: location.pathname == "/contact" ? 1 : 0.2 }}
+									onClick={close}>Contact</Link>
 							</li>
 						</ul>
 					</nav>
@@ -71,11 +94,11 @@ const Header = () => {
 				<div className="copywrite-text">
 					<p>
 						{/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
-				Copyright &copy;
-				<script>
+						Copyright &copy;
+						<script>
 							document.write(new Date().getFullYear());
-				</script> All rights reserved | This template is made
-				with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+						</script> All rights reserved | This template is made
+						with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
 							target="_blank">Colorlib</a>
 						{/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
 					</p>
