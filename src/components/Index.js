@@ -15,7 +15,7 @@ const Index = () => {
 		<div>
 			{/* <!-- ***** Hero Area Start ***** --> */}
 			<Carousel controls={false}>
-				<Carousel.Item>
+				<Carousel.Item interval={3000}>
 					<img
 						className="d-block w-100"
 						src="img/portfolio-img/Wedding-05.jpg"
@@ -25,7 +25,7 @@ const Index = () => {
 						<h3 style={{ color: "white" }}>Gachie</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
-				<Carousel.Item>
+				<Carousel.Item interval={3000}>
 					<img
 						className="d-block w-100"
 						src="img/portfolio-img/Wedding-31.jpg"
@@ -36,7 +36,7 @@ const Index = () => {
 						<h3 style={{ color: "white" }}>Aboretum</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
-				<Carousel.Item>
+				<Carousel.Item interval={3000}>
 					<img
 						className="d-block w-100"
 						src="img/portfolio-img/Wedding-22.jpg"
