@@ -44,6 +44,14 @@ const Portfolio = () => {
 		"img/portfolio-img/Wedding-28.jpg",
 		"img/portfolio-img/Portrait-10.jpg",
 		"img/portfolio-img/Kid-10.jpg",
+		"img/portfolio-img/Wedding-31.jpg",
+		"img/portfolio-img/Wedding-35.jpg",
+		"img/portfolio-img/Wedding-36.jpg",
+		"img/portfolio-img/Wedding-37.jpg",
+		"img/portfolio-img/Wedding-38.jpg",
+		"img/portfolio-img/Wedding-39.jpg",
+		"img/portfolio-img/Wedding-41.jpg",
+		"img/portfolio-img/Wedding-43.jpg",
 	]
 
 	return (
