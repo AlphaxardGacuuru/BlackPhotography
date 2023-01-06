@@ -56,35 +56,35 @@ const Header = () => {
 								<Link
 									className="nav-link"
 									to="/"
-									style={{ opacity: location.pathname == "/" ? 1 : 0.2 }}
+									style={{ opacity: location.pathname == "/" ? 1 : 0.4 }}
 									onClick={close}>Home</Link>
 							</li>
 							<li className="nav-item">
 								<Link
 									className="nav-link"
 									to="/about"
-									style={{ opacity: location.pathname == "/about" ? 1 : 0.2 }}
+									style={{ opacity: location.pathname == "/about" ? 1 : 0.4 }}
 									onClick={close}>About Me</Link>
 							</li>
 							<li className="nav-item">
 								<Link
 									className="nav-link"
 									to="/services"
-									style={{ opacity: location.pathname == "/services" ? 1 : 0.2 }}
+									style={{ opacity: location.pathname == "/services" ? 1 : 0.4 }}
 									onClick={close}>Services</Link>
 							</li>
 							<li className="nav-item">
 								<Link
 									className="nav-link"
 									to="/portfolio"
-									style={{ opacity: location.pathname == "/portfolio" ? 1 : 0.2 }}
+									style={{ opacity: location.pathname == "/portfolio" ? 1 : 0.4 }}
 									onClick={close}>Portfolio</Link>
 							</li>
 							<li className="nav-item">
 								<Link
 									className="nav-link"
 									to="/contact"
-									style={{ opacity: location.pathname == "/contact" ? 1 : 0.2 }}
+									style={{ opacity: location.pathname == "/contact" ? 1 : 0.4 }}
 									onClick={close}>Contact</Link>
 							</li>
 						</ul>
