@@ -1524,6 +1524,43 @@ img {
   .single-pie-bar {
     margin-bottom: 30px; } }
 
+	/* card */
+	.card {
+		/* Add shadows to create the "card" effect */
+		box-shadow: 0 4px 8px 0 rgba(35, 35, 35, 0.5);
+		transition: 0.3s;
+		margin: 3%;
+	}
+	
+	/* On mouse-over, add a deeper shadow */
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(35, 35, 35, 0.5);
+	}	
+
+/* crop thumbnails */
+.thumbnail {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    margin: 0px 0px 0px 0px;
+}
+
+/*Hide elements on small screens*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .thumbnail {
+		max-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .thumbnail {
+		max-height: 100px;
+    }
+}
+
 /* The end */
 
 /*# sourceMappingURL=style.css.map */

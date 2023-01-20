@@ -63,7 +63,7 @@ const Services = () => {
 									<span>3 A3 Mounts</span><br />
 									<span>1 Photo Magazine</span><br />
 									<span>Photos</span><br />
-									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
 									<br />
@@ -95,7 +95,7 @@ const Services = () => {
 									<span>1 Cinematographer</span><br />
 									<span>1 A3 Mount</span><br />
 									<span>Photos</span><br />
-									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
 									<br />
@@ -129,7 +129,7 @@ const Services = () => {
 									<span>1 Photographer</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>Photos</span><br />
-									<span>Video (1.5 - 3hrs)</span><br />
+									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<br />
 									<h5 style={{ color: "white" }}>Ksh 20,000</h5>
