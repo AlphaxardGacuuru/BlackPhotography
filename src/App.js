@@ -6,6 +6,7 @@ import About from "./components/About"
 import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
+import Contract from "./components/Contract"
 import Footer from "./components/Footer"
 
 import ScrollToTop from "./components/ScrollToTop"
@@ -35,6 +36,7 @@ function App() {
 				<Route path="/services" exact render={() => (<Services />)} />
 				<Route path="/portfolio" exact render={() => (<Portfolio />)} />
 				<Route path="/contact" exact render={() => (<Contact />)} />
+				<Route path="/contract" exact render={() => (<Contract />)} />
 				<Footer />
 			</div>
 		</Router>

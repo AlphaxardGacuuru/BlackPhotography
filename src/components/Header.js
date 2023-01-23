@@ -87,6 +87,13 @@ const Header = () => {
 									style={{ opacity: location.pathname == "/contact" ? 1 : 0.4 }}
 									onClick={close}>Contact</Link>
 							</li>
+							<li className="nav-item">
+								<Link
+									className="nav-link"
+									to="/contract"
+									style={{ opacity: location.pathname == "/contract" ? 1 : 0.4 }}
+									onClick={close}>Contract</Link>
+							</li>
 						</ul>
 					</nav>
 				</div>
