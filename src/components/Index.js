@@ -175,7 +175,7 @@ const Index = () => {
 									<span>2 Cinematographers</span><br />
 									<span>3 A3 Mounts</span><br />
 									<span>1 Photo Magazine</span><br />
-									<span>Photos</span><br />
+									<span>250 Photos</span><br />
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
@@ -207,7 +207,7 @@ const Index = () => {
 									<span>2 Photographers</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>1 A3 Mount</span><br />
-									<span>Photos</span><br />
+									<span>150 Photos</span><br />
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
@@ -241,7 +241,7 @@ const Index = () => {
 									<h4 style={{ color: "white" }}>Wedding Photography <br />Budget</h4>
 									<span>1 Photographer</span><br />
 									<span>1 Cinematographer</span><br />
-									<span>Photos</span><br />
+									<span>100 Photos</span><br />
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<br />

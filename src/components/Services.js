@@ -62,7 +62,7 @@ const Services = () => {
 									<span>2 Cinematographers</span><br />
 									<span>3 A3 Mounts</span><br />
 									<span>1 Photo Magazine</span><br />
-									<span>Photos</span><br />
+									<span>250 Photos</span><br />
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
@@ -94,7 +94,7 @@ const Services = () => {
 									<span>2 Photographers</span><br />
 									<span>1 Cinematographer</span><br />
 									<span>1 A3 Mount</span><br />
-									<span>Photos</span><br />
+									<span>150 Photos</span><br />
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
@@ -128,7 +128,7 @@ const Services = () => {
 									<h4 style={{ color: "white" }}>Wedding Photography <br />Budget</h4>
 									<span>1 Photographer</span><br />
 									<span>1 Cinematographer</span><br />
-									<span>Photos</span><br />
+									<span>100 Photos</span><br />
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<br />
@@ -160,7 +160,7 @@ const Services = () => {
 									<span>30 Edited, Retouched (with skin smoothening) Photos</span>
 									<br />
 									<br />
-									<h5>Ksh 10,000</h5>
+									<h5>Ksh 5,000</h5>
 									<br />
 								</center>
 							</div>
@@ -229,7 +229,8 @@ const Services = () => {
 									<h4>Products</h4>
 									<span>A3 Mount - Ksh 2500</span><br />
 									<span>A2 Mount - Ksh 4500</span><br />
-									<span>Photo Magazine - Ksh 12,000</span><br />
+									<span>Photo Magazine (40 pgs) - Ksh 10,000</span><br />
+									<span>Photo Magazine (20 pgs) - Ksh 8,000</span><br />
 									<br />
 								</center>
 							</div>

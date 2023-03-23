@@ -58,7 +58,7 @@ const Contract = () => {
 									<br />
 
 									<div className="text-left">
-										<label className="text-left">Duration</label>
+										<label className="text-left">Duration in days</label>
 										<input
 											type="number"
 											name="duration"
