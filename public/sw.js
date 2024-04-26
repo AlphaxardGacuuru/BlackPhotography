@@ -1,5 +1,5 @@
 // cacheName needs to be changed after any of the assets are changed
-const cacheName = 'BlackPhotographyCache4';
+const cacheName = 'BlackPhotographyCache5';
 
 const cacheAssets = [
 	'style.css'
