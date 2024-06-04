@@ -190,7 +190,7 @@ const Header = () => {
 												aria-hidden="true"></i>
 										</a>
 										<a
-											href="mailto:alphaxardgacuuru47@gmail.com?subject = Photography&body = Enquiry"
+											href="mailto:alphaxardgacuuru47@gmail.com?subject=Photography&body=Enquiry"
 											data-toggle="tooltip"
 											data-placement="bottom"
 											title="Email">

@@ -112,7 +112,7 @@ const Contact = () => {
 										className="p-2 mt-4 card border rounded-circle"
 										style={{ width: "100px", height: "100px" }}>
 										<a
-											href="mailto:alphaxardgacuuru47@gmail.com?subject = Photography&body = Enquiry"
+											href="mailto:alphaxardgacuuru47@gmail.com?subject=Photography&body=Enquiry"
 											data-toggle="tooltip"
 											className="my-auto"
 											style={{ color: "black" }}
@@ -180,12 +180,6 @@ const Contact = () => {
 					</div>
 				</div>
 			</section>
-			<edit-photo style={{ width: "640px", height: "480px" }}>
-				<a href="https://edit.photo/template/eyJsYWJlbCI6IkhBVkkgTGVuc2VzIFBob3RvIEVkaXRvciJ9/"
-					className="btn sonar-btn">
-					Edit Photo
-				</a>
-			</edit-photo>
 			<script src="https://edit.photo/widget.js" async></script>
 		</div>
 	)
