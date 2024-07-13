@@ -236,7 +236,7 @@ const Index = () => {
 									<span>Free Engagement Shoot</span>
 									<br />
 									<br />
-									<h5>Ksh 50,000</h5>
+									<h5>Ksh 70,000</h5>
 									<br />
 									<p>
 										“What i like about photographs is that they capture a moment
@@ -286,7 +286,7 @@ const Index = () => {
 									<span>Free Engagement Shoot</span>
 									<br />
 									<br />
-									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 50,000</h5>
 									<br />
 									<p style={{ color: "white" }}>
 										“If your pictures are not good enough you are not close
@@ -336,7 +336,7 @@ const Index = () => {
 									<span>Trailer (6 - 12mns)</span>
 									<br />
 									<br />
-									<h5 style={{ color: "white" }}>Ksh 20,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
 									<br />
 									<p style={{ color: "white" }}>
 										A story should have a beginning, a middle and an end… but

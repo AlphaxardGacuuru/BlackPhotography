@@ -67,7 +67,7 @@ const Services = () => {
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
 									<br />
-									<h5>Ksh 50,000</h5>
+									<h5>Ksh 70,000</h5>
 									<br />
 									<p>
 										“What i like about photographs is that they capture a moment
@@ -99,7 +99,7 @@ const Services = () => {
 									<span>Trailer (6 - 12mns)</span><br />
 									<span>Free Engagement Shoot</span><br />
 									<br />
-									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 50,000</h5>
 									<br />
 									<p style={{ color: "white" }}>
 										“If your pictures are not good enough you are not close enough.”
@@ -132,7 +132,7 @@ const Services = () => {
 									<span>Video (40mns-1.5hrs)</span><br />
 									<span>Trailer (6 - 12mns)</span><br />
 									<br />
-									<h5 style={{ color: "white" }}>Ksh 20,000</h5>
+									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
 									<br />
 									<p style={{ color: "white" }}>
 										A story should have a beginning, a middle and an end… but not
@@ -227,8 +227,11 @@ const Services = () => {
 										</svg>
 									</span>
 									<h4>Products</h4>
-									<span>A3 Mount - Ksh 2500</span><br />
-									<span>A2 Mount - Ksh 4500</span><br />
+									<span>A1 Mount - Ksh 4500</span><br />
+									<span>A2 Mount - Ksh 2500</span><br />
+									<span>A3 Mount - Ksh 1500</span><br />
+									<span>A4 Mount - Ksh 1000</span><br />
+									<span>A5 Mount - Ksh 500</span><br />
 									<span>Photo Magazine (40 pgs) - Ksh 10,000</span><br />
 									<span>Photo Magazine (20 pgs) - Ksh 8,000</span><br />
 									<br />
@@ -254,7 +257,8 @@ const Services = () => {
 							<div className="single-services-area wow fadeInUp card py-5 px-2" data-wow-delay="600ms">
 								<center><h4>Terms and Details</h4></center>
 								<h6>Early booking of 2 weeks is recommended to secure the day.</h6>
-								<h6>Booking is done by paying 80% of the total package cost and the remaining 20% on D-day.</h6>
+								<h6>Booking is done by paying 50% of the total package cost and the remaining 50% on D-day.</h6>
+								<h6>Get KES 5000 discount when you pay 80% deposit.</h6>
 								<h6>Content will be delivered via a Flash Disk provided by me.</h6>
 								<h6>Wedding package add-ons are an extra cost.</h6>
 								<h6>Delivery:</h6>
