@@ -24,7 +24,7 @@ const Index = () => {
 						loading="lazy"
 					/>
 					<Carousel.Caption>
-						<h3 style={{ color: "white" }}>Gachie</h3>
+						<h3 className="text-white">Gachie</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item interval={3000}>
@@ -36,7 +36,7 @@ const Index = () => {
 					/>
 
 					<Carousel.Caption>
-						<h3 style={{ color: "white" }}>Aboretum</h3>
+						<h3 className="text-white">Aboretum</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item interval={3000}>
@@ -48,7 +48,7 @@ const Index = () => {
 					/>
 
 					<Carousel.Caption>
-						<h3 style={{ color: "white" }}>Kasarani</h3>
+						<h3 className="text-white">Kasarani</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
@@ -122,7 +122,7 @@ const Index = () => {
 					className="col-sm-12 p-5"
 					style={{ backgroundColor: "#000" }}>
 					<center>
-						<h1 style={{ color: "white" }}>About Me</h1>
+						<h1 className="text-white">About Me</h1>
 					</center>
 				</div>
 			</div>
@@ -147,8 +147,8 @@ const Index = () => {
 								<div
 									className="m-3"
 									style={{ backgroundColor: "white", height: "1px" }}></div>
-								<h2 style={{ color: "white" }}>Hi, I'm Al</h2>
-								<p style={{ color: "white" }}>
+								<h2 className="text-white">Hi, I'm Al</h2>
+								<p className="text-white">
 									I'm an experienced photographer and videographer and I know
 									that wedding ceremonies ought to be memorable, thus Black
 									Photography offers customized wedding coverage to immortalize
@@ -223,22 +223,32 @@ const Index = () => {
 									<br />
 									<span>2 Cinematographers</span>
 									<br />
-									<span>3 A3 Mounts</span>
+									<span>250 Photos</span>
+									<br />
+									<span>1 A1 Mount</span>
+									<br />
+									<span>2 A2 Mounts</span>
+									<br />
+									<span>2 A3 Mounts</span>
 									<br />
 									<span>1 Photo Magazine</span>
-									<br />
-									<span>250 Photos</span>
 									<br />
 									<span>Video (40mns-1.5hrs)</span>
 									<br />
 									<span>Trailer (6 - 12mns)</span>
 									<br />
+									<span>Drone</span>
+									<br />
+									<span>Flash Disk</span>
+									<br />
 									<span>Free Engagement Shoot</span>
 									<br />
 									<br />
-									<h5>Ksh 70,000</h5>
+									<h5>Ksh 100,000</h5>
 									<br />
-									<p>
+									<p
+										className="text-dark"
+										style={{ fontWeight: "300" }}>
 										“What i like about photographs is that they capture a moment
 										that’s gone forever, impossible to reproduce.” ― Karl
 										Lagerfeld.
@@ -267,28 +277,34 @@ const Index = () => {
 											/>
 										</svg>
 									</span>
-									<h4 style={{ color: "white" }}>
+									<h4 className="text-white">
 										Wedding Photography <br />
 										Standard
 									</h4>
 									<span>2 Photographers</span>
 									<br />
-									<span>1 Cinematographer</span>
+									<span>2 Cinematographers</span>
 									<br />
-									<span>1 A3 Mount</span>
+									<span>250 Photos</span>
 									<br />
-									<span>150 Photos</span>
+									<span>1 A2 Mount</span>
+									<br />
+									<span>2 A3 Mounts</span>
+									<br />
+									<span>1 Photo Magazine</span>
 									<br />
 									<span>Video (40mns-1.5hrs)</span>
 									<br />
 									<span>Trailer (6 - 12mns)</span>
 									<br />
+									<span>Flash Disk</span>
+									<br />
 									<span>Free Engagement Shoot</span>
 									<br />
 									<br />
-									<h5 style={{ color: "white" }}>Ksh 50,000</h5>
+									<h5 className="text-white">Ksh 70,000</h5>
 									<br />
-									<p style={{ color: "white" }}>
+									<p className="text-white">
 										“If your pictures are not good enough you are not close
 										enough.” ― Robert Capa
 									</p>
@@ -321,24 +337,26 @@ const Index = () => {
 											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
 										</svg>
 									</span>
-									<h4 style={{ color: "white" }}>
+									<h4 className="text-white">
 										Wedding Photography <br />
 										Budget
 									</h4>
-									<span>1 Photographer</span>
+									<span>2 Photographers</span>
 									<br />
-									<span>1 Cinematographer</span>
+									<span>250 Photos</span>
 									<br />
-									<span>100 Photos</span>
+									<span>1 A3 Mount</span>
 									<br />
-									<span>Video (40mns-1.5hrs)</span>
+									<span>1 Photo Magazine</span>
 									<br />
-									<span>Trailer (6 - 12mns)</span>
+									<span>Flash Disk</span>
+									<br />
+									<span>Free Engagement Shoot</span>
 									<br />
 									<br />
-									<h5 style={{ color: "white" }}>Ksh 30,000</h5>
+									<h5 className="text-white">Ksh 50,000</h5>
 									<br />
-									<p style={{ color: "white" }}>
+									<p className="text-white">
 										A story should have a beginning, a middle and an end… but
 										not necessarily in that order. – Jean-Luc Godard.
 									</p>
