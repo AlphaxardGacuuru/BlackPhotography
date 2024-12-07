@@ -54,7 +54,114 @@ const Services = () => {
 			<div className="sonar-services-area section-padding-100-50">
 				<div className="container">
 					<div className="row">
-						{/* <!-- Wedding Photography Plus Area --> */}
+						{/* <!-- Wedding Photography Budget Area Start --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#232323", color: "white" }}
+								data-wow-delay="300ms">
+								<center>
+									<span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="50"
+											height="50"
+											fill="currentColor"
+											className="bi bi-camera"
+											viewBox="0 0 16 16">
+											<path
+												fill-rule="evenodd"
+												d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"
+											/>
+											<path
+												fill-rule="evenodd"
+												d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"
+											/>
+											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+										</svg>
+									</span>
+									<h4 className="text-white">
+										Wedding Photography <br />
+										Budget
+									</h4>
+									<span>2 Photographers</span>
+									<br />
+									<span>250 Edited Photos</span>
+									<br />
+									<span>10 Retouched Photos</span>
+									<br />
+									<span>1 A3 Mount</span>
+									<br />
+									<span>1 Photo Magazine</span>
+									<br />
+									<span>Flash Disk</span>
+									<br />
+									<span>Free Engagement Shoot</span>
+									<br />
+									<br />
+									<h5 className="text-white">Ksh 50,000</h5>
+									<br />
+									<p className="text-white">
+										A story should have a beginning, a middle and an end… but
+										not necessarily in that order. – Jean-Luc Godard.
+									</p>
+								</center>
+							</div>
+						</div>
+						{/* <!-- Wedding Photography Budget Area End --> */}
+
+						{/* <!-- Wedding Photography Standard Area Start --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#102336", color: "white" }}
+								data-wow-delay="600ms">
+								<center>
+									<span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="50"
+											height="50"
+											fill="currentColor"
+											className="bi bi-camera-video"
+											viewBox="0 0 16 16">
+											<path
+												fill-rule="evenodd"
+												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
+											/>
+										</svg>
+									</span>
+									<h4 className="text-white">
+										Wedding Photography <br />
+										Standard
+									</h4>
+									<span>EVERYTHING IN BUDGET PLUS:</span>
+									<br />
+									<span>10 Retouched Photos (20 Total)</span>
+									<br />
+									<span>2 Cinematographers</span>
+									<br />
+									<span>1 A2 Mount</span>
+									<br />
+									<span>1 A3 Mount (2 Total)</span>
+									<br />
+									<span>Video (40mns-1.5hrs)</span>
+									<br />
+									<span>Trailer (6 - 12mns)</span>
+									<br />
+									<br />
+									<h5 className="text-white">Ksh 70,000</h5>
+									<br />
+									<p className="text-white">
+										“If your pictures are not good enough you are not close
+										enough.” ― Robert Capa
+									</p>
+								</center>
+							</div>
+						</div>
+						{/* <!-- Wedding Photography Standard Area End --> */}
+
+						{/* <!-- Wedding Photography Plus Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
@@ -87,29 +194,17 @@ const Services = () => {
 										Wedding Photography <br />
 										Plus
 									</h4>
-									<span>2 Photographers</span>
+									<span>EVERYTHING IN STANDARD PLUS:</span>
 									<br />
-									<span>2 Cinematographers</span>
-									<br />
-									<span>250 Photos</span>
+									<span>10 Retouched Photos (30 Total)</span>
 									<br />
 									<span>1 A1 Mount</span>
 									<br />
-									<span>2 A2 Mounts</span>
+									<span>1 A2 Mount (2 Total)</span>
 									<br />
-									<span>2 A3 Mounts</span>
-									<br />
-									<span>1 Photo Magazine</span>
-									<br />
-									<span>Video (40mns-1.5hrs)</span>
-									<br />
-									<span>Trailer (6 - 12mns)</span>
+									<span>1 A3 Mount (3 Total)</span>
 									<br />
 									<span>Drone</span>
-									<br />
-									<span>Flash Disk</span>
-									<br />
-									<span>Free Engagement Shoot</span>
 									<br />
 									<br />
 									<h5>Ksh 100,000</h5>
@@ -124,66 +219,13 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Wedding Photography Standard Area --> */}
+						{/* <!-- Wedding Photography Plus Area End --> */}
+
+						{/* <!-- Ruracio Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
-								style={{ backgroundColor: "#102336", color: "white" }}
-								data-wow-delay="600ms">
-								<center>
-									<span>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="50"
-											height="50"
-											fill="currentColor"
-											className="bi bi-camera-video"
-											viewBox="0 0 16 16">
-											<path
-												fill-rule="evenodd"
-												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
-											/>
-										</svg>
-									</span>
-									<h4 className="text-white">
-										Wedding Photography <br />
-										Standard
-									</h4>
-									<span>2 Photographers</span>
-									<br />
-									<span>2 Cinematographers</span>
-									<br />
-									<span>250 Photos</span>
-									<br />
-									<span>1 A2 Mount</span>
-									<br />
-									<span>2 A3 Mounts</span>
-									<br />
-									<span>1 Photo Magazine</span>
-									<br />
-									<span>Video (40mns-1.5hrs)</span>
-									<br />
-									<span>Trailer (6 - 12mns)</span>
-									<br />
-									<span>Flash Disk</span>
-									<br />
-									<span>Free Engagement Shoot</span>
-									<br />
-									<br />
-									<h5 className="text-white">Ksh 70,000</h5>
-									<br />
-									<p className="text-white">
-										“If your pictures are not good enough you are not close
-										enough.” ― Robert Capa
-									</p>
-								</center>
-							</div>
-						</div>
-						{/* <!-- Wedding Photography Budget Area --> */}
-						<div className="col-12 col-md-6 col-lg-4">
-							<div
-								className="single-services-area wow fadeInUp card py-5 px-2"
-								style={{ backgroundColor: "#232323", color: "white" }}
+								style={{ backgroundColor: "#914E3B" }}
 								data-wow-delay="300ms">
 								<center>
 									<span>
@@ -192,46 +234,23 @@ const Services = () => {
 											width="50"
 											height="50"
 											fill="currentColor"
-											className="bi bi-camera"
+											class="bi bi-gift"
 											viewBox="0 0 16 16">
-											<path
-												fill-rule="evenodd"
-												d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"
-											/>
-											<path
-												fill-rule="evenodd"
-												d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"
-											/>
-											<path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+											<path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zM1 4v2h6V4zm8 0v2h6V4zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5z" />
 										</svg>
 									</span>
-									<h4 className="text-white">
-										Wedding Photography <br />
-										Budget
-									</h4>
-									<span>2 Photographers</span>
-									<br />
-									<span>250 Photos</span>
-									<br />
-									<span>1 A3 Mount</span>
-									<br />
-									<span>1 Photo Magazine</span>
-									<br />
-									<span>Flash Disk</span>
-									<br />
-									<span>Free Engagement Shoot</span>
+									<h4>Ruracio Shoot</h4>
+									<span>Similar to Wedding Packages</span>
 									<br />
 									<br />
-									<h5 className="text-white">Ksh 50,000</h5>
+									<h5>Ksh 10,000 off of each Wedding Package</h5>
 									<br />
-									<p className="text-white">
-										A story should have a beginning, a middle and an end… but
-										not necessarily in that order. – Jean-Luc Godard.
-									</p>
 								</center>
 							</div>
 						</div>
-						{/* <!-- Engagement Shoot Area --> */}
+						{/* <!-- Ruracio Area End --> */}
+
+						{/* <!-- Engagement Shoot Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
@@ -255,9 +274,7 @@ const Services = () => {
 									<h4>Engagement Shoot</h4>
 									<span>1 A3 Mount</span>
 									<br />
-									<span>
-										30 Edited, Retouched (with skin smoothening) Photos
-									</span>
+									<span>30 Edited and Retouched Photos</span>
 									<br />
 									<br />
 									<h5>Ksh 10,000</h5>
@@ -265,7 +282,9 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Family Area --> */}
+						{/* <!-- Engagement Shoot Area End --> */}
+
+						{/* <!-- Family Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
@@ -289,9 +308,7 @@ const Services = () => {
 									<h4>Family Shoot</h4>
 									<span>1 A3 Mount</span>
 									<br />
-									<span>
-										30 Edited, Retouched (with skin smoothening) Photos
-									</span>
+									<span>30 Edited and Retouched Photos</span>
 									<br />
 									<br />
 									<h5>Ksh 10,000</h5>
@@ -299,11 +316,13 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Baby Bump Area --> */}
+						{/* <!-- Family Area End --> */}
+
+						{/* <!-- Baby Bump Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
-								style={{ backgroundColor: "#F4C2C2" }}
+								style={{ backgroundColor: "#FFC0CB" }}
 								data-wow-delay="600ms">
 								<center>
 									<span>
@@ -323,7 +342,7 @@ const Services = () => {
 									<h4>Baby Bump Shoot</h4>
 									<span>1 A3 Mount</span>
 									<br />
-									<span>30 Edited Photos</span>
+									<span>30 Edited and Retouched Photos</span>
 									<br />
 									<br />
 									<h5>Ksh 10,000</h5>
@@ -331,6 +350,8 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
+						{/* <!-- Baby Bump Area End --> */}
+
 						{/* <!-- Products Area --> */}
 						{/* <div className="col-12 col-md-6 col-lg-4">
 							<div
@@ -371,7 +392,8 @@ const Services = () => {
 								</center>
 							</div>
 						</div> */}
-						{/* <!-- Add-ons Area --> */}
+
+						{/* <!-- Add-ons Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
@@ -388,7 +410,9 @@ const Services = () => {
 								</center>
 							</div>
 						</div>
-						{/* <!-- Terms and Details Area --> */}
+						{/* <!-- Add-ons Area End --> */}
+
+						{/* <!-- Terms and Details Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
@@ -413,6 +437,7 @@ const Services = () => {
 								<h6 className="ml-3">Videos - 2 weeks.</h6>
 							</div>
 						</div>
+						{/* <!-- Terms and Details Area End --> */}
 					</div>
 				</div>
 			</div>

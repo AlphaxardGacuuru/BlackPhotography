@@ -186,132 +186,7 @@ const Index = () => {
 						</div>
 					</div>
 					<div className="row">
-						{/* <!-- Wedding Photography Plus Area --> */}
-						<div className="col-12 col-md-6 col-lg-4">
-							<div
-								className="single-services-area wow fadeInUp card py-5 px-2"
-								style={{ backgroundColor: "#FFC862" }}
-								data-wow-delay="300ms">
-								<center>
-									<span>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="50"
-											height="50"
-											fill="currentColor"
-											className="bi bi-camera-reels"
-											viewBox="0 0 16 16">
-											<path
-												fill-rule="evenodd"
-												d="M0 8a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8zm11.5 5.175l3.5 1.556V7.269l-3.5 1.556v4.35zM2 7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2z"
-											/>
-											<path
-												fill-rule="evenodd"
-												d="M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-											/>
-											<path
-												fill-rule="evenodd"
-												d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-											/>
-										</svg>
-									</span>
-									<h4>
-										Wedding Photography <br />
-										Plus
-									</h4>
-									<span>2 Photographers</span>
-									<br />
-									<span>2 Cinematographers</span>
-									<br />
-									<span>250 Photos</span>
-									<br />
-									<span>1 A1 Mount</span>
-									<br />
-									<span>2 A2 Mounts</span>
-									<br />
-									<span>2 A3 Mounts</span>
-									<br />
-									<span>1 Photo Magazine</span>
-									<br />
-									<span>Video (40mns-1.5hrs)</span>
-									<br />
-									<span>Trailer (6 - 12mns)</span>
-									<br />
-									<span>Drone</span>
-									<br />
-									<span>Flash Disk</span>
-									<br />
-									<span>Free Engagement Shoot</span>
-									<br />
-									<br />
-									<h5>Ksh 100,000</h5>
-									<br />
-									<p
-										className="text-dark"
-										style={{ fontWeight: "300" }}>
-										“What i like about photographs is that they capture a moment
-										that’s gone forever, impossible to reproduce.” ― Karl
-										Lagerfeld.
-									</p>
-								</center>
-							</div>
-						</div>
-						{/* <!-- Wedding Photography Standard Area --> */}
-						<div className="col-12 col-md-6 col-lg-4">
-							<div
-								className="single-services-area wow fadeInUp card py-5 px-2"
-								style={{ backgroundColor: "#102336", color: "white" }}
-								data-wow-delay="600ms">
-								<center>
-									<span>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="50"
-											height="50"
-											fill="currentColor"
-											className="bi bi-camera-video"
-											viewBox="0 0 16 16">
-											<path
-												fill-rule="evenodd"
-												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
-											/>
-										</svg>
-									</span>
-									<h4 className="text-white">
-										Wedding Photography <br />
-										Standard
-									</h4>
-									<span>2 Photographers</span>
-									<br />
-									<span>2 Cinematographers</span>
-									<br />
-									<span>250 Photos</span>
-									<br />
-									<span>1 A2 Mount</span>
-									<br />
-									<span>2 A3 Mounts</span>
-									<br />
-									<span>1 Photo Magazine</span>
-									<br />
-									<span>Video (40mns-1.5hrs)</span>
-									<br />
-									<span>Trailer (6 - 12mns)</span>
-									<br />
-									<span>Flash Disk</span>
-									<br />
-									<span>Free Engagement Shoot</span>
-									<br />
-									<br />
-									<h5 className="text-white">Ksh 70,000</h5>
-									<br />
-									<p className="text-white">
-										“If your pictures are not good enough you are not close
-										enough.” ― Robert Capa
-									</p>
-								</center>
-							</div>
-						</div>
-						{/* <!-- Wedding Photography Budget Area --> */}
+						{/* <!-- Wedding Photography Budget Area Start --> */}
 						<div className="col-12 col-md-6 col-lg-4">
 							<div
 								className="single-services-area wow fadeInUp card py-5 px-2"
@@ -363,6 +238,112 @@ const Index = () => {
 								</center>
 							</div>
 						</div>
+						{/* <!-- Wedding Photography Budget Area End --> */}
+
+						{/* <!-- Wedding Photography Standard Area Start --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#102336", color: "white" }}
+								data-wow-delay="600ms">
+								<center>
+									<span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="50"
+											height="50"
+											fill="currentColor"
+											className="bi bi-camera-video"
+											viewBox="0 0 16 16">
+											<path
+												fill-rule="evenodd"
+												d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175l3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
+											/>
+										</svg>
+									</span>
+									<h4 className="text-white">
+										Wedding Photography <br />
+										Standard
+									</h4>
+									<span>EVERYTHING IN BUDGET PLUS:</span>
+									<br />
+									<span>2 Cinematographers</span>
+									<br />
+									<span>1 A2 Mount</span>
+									<br />
+									<span>1 A3 Mount (2 Total)</span>
+									<br />
+									<span>Video (40mns-1.5hrs)</span>
+									<br />
+									<span>Trailer (6 - 12mns)</span>
+									<br />
+									<br />
+									<h5 className="text-white">Ksh 70,000</h5>
+									<br />
+									<p className="text-white">
+										“If your pictures are not good enough you are not close
+										enough.” ― Robert Capa
+									</p>
+								</center>
+							</div>
+						</div>
+						{/* <!-- Wedding Photography Standard Area End --> */}
+
+						{/* <!-- Wedding Photography Plus Area Start --> */}
+						<div className="col-12 col-md-6 col-lg-4">
+							<div
+								className="single-services-area wow fadeInUp card py-5 px-2"
+								style={{ backgroundColor: "#FFC862" }}
+								data-wow-delay="300ms">
+								<center>
+									<span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="50"
+											height="50"
+											fill="currentColor"
+											className="bi bi-camera-reels"
+											viewBox="0 0 16 16">
+											<path
+												fill-rule="evenodd"
+												d="M0 8a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8zm11.5 5.175l3.5 1.556V7.269l-3.5 1.556v4.35zM2 7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2z"
+											/>
+											<path
+												fill-rule="evenodd"
+												d="M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+											/>
+											<path
+												fill-rule="evenodd"
+												d="M9 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+											/>
+										</svg>
+									</span>
+									<h4>
+										Wedding Photography <br />
+										Plus
+									</h4>
+									<span>EVERYTHING IN STANDARD PLUS:</span>
+									<br />
+									<span>1 A1 Mount</span>
+									<br />
+									<span>1 A2 Mount (2 Total)</span>
+									<br />
+									<span>Drone</span>
+									<br />
+									<br />
+									<h5>Ksh 100,000</h5>
+									<br />
+									<p
+										className="text-dark"
+										style={{ fontWeight: "300" }}>
+										“What i like about photographs is that they capture a moment
+										that’s gone forever, impossible to reproduce.” ― Karl
+										Lagerfeld.
+									</p>
+								</center>
+							</div>
+						</div>
+						{/* <!-- Wedding Photography Plus Area End --> */}
 					</div>
 					<div className="row">
 						<div className="col-sm-12 p-5">
