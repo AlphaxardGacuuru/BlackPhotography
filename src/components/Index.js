@@ -218,7 +218,9 @@ const Index = () => {
 									</h4>
 									<span>2 Photographers</span>
 									<br />
-									<span>250 Photos</span>
+									<span>250 Edited Photos</span>
+									<br />
+									<span>10 Retouched Photos</span>
 									<br />
 									<span>1 A3 Mount</span>
 									<br />
@@ -266,6 +268,8 @@ const Index = () => {
 										Standard
 									</h4>
 									<span>EVERYTHING IN BUDGET PLUS:</span>
+									<br />
+									<span>10 Retouched Photos (20 Total)</span>
 									<br />
 									<span>2 Cinematographers</span>
 									<br />
@@ -324,9 +328,13 @@ const Index = () => {
 									</h4>
 									<span>EVERYTHING IN STANDARD PLUS:</span>
 									<br />
+									<span>10 Retouched Photos (30 Total)</span>
+									<br />
 									<span>1 A1 Mount</span>
 									<br />
 									<span>1 A2 Mount (2 Total)</span>
+									<br />
+									<span>1 A3 Mount (3 Total)</span>
 									<br />
 									<span>Drone</span>
 									<br />
